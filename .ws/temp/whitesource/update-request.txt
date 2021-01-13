@@ -1,0 +1,416 @@
+{
+  "updateType": "OVERRIDE",
+  "type": "UPDATE",
+  "agent": "fs-agent",
+  "agentVersion": "2.9.9.59",
+  "pluginVersion": "20.11.2",
+  "orgToken": "edf10bdd3442429aaf134d300e98c9621ce1f079cd094591a11c91f8f0decab3",
+  "userKey": "4f2b193db7ca4343bb10df2f2992cc37145b21b411274e979b43a9d80dcfcfff",
+  "product": "WS-CLI",
+  "productVersion": "",
+  "timeStamp": 1607367677065,
+  "projects": [
+    {
+      "coordinates": {
+        "artifactId": "JavaVulnerableLab-master",
+        "version": ""
+      },
+      "dependencies": [
+        {
+          "groupId": "mysql",
+          "artifactId": "mysql-connector-java",
+          "version": "5.1.2",
+          "type": "jar",
+          "scope": "compile",
+          "sha1": "86df525275a34a44746ee9dc6de8aee601708de9",
+          "systemPath": "C:\\Users\\wrbej\\.m2\\repository\\mysql\\mysql-connector-java\\5.1.2\\mysql-connector-java-5.1.2.jar",
+          "optional": false,
+          "children": [],
+          "exclusions": [],
+          "licenses": [],
+          "copyrights": [],
+          "filename": "mysql-connector-java-5.1.2.jar",
+          "dependencyType": "MAVEN",
+          "checksums": {
+            "SHA1": "86df525275a34a44746ee9dc6de8aee601708de9",
+            "ADDITIONAL_SHA1": "9f97d638b515259dc3108bdf4225d65f823486a9"
+          },
+          "dependencyFile": "C:\\WhiteSource\\Projects\\JavaVulnerableLab-master\\bin\\pom.xml",
+          "additionalSha1": "9f97d638b515259dc3108bdf4225d65f823486a9",
+          "deduped": false,
+          "dependencyModulesToPaths": {},
+          "euaArtifactId": "mysql-connector-java",
+          "aggregatedDependencies": []
+        },
+        {
+          "groupId": "org.json",
+          "artifactId": "json",
+          "version": "20090211",
+          "type": "jar",
+          "scope": "compile",
+          "sha1": "c183aa3a2a6250293808bba12262c8920ce5a51c",
+          "systemPath": "C:\\Users\\wrbej\\.m2\\repository\\org\\json\\json\\20090211\\json-20090211.jar",
+          "optional": false,
+          "children": [],
+          "exclusions": [],
+          "licenses": [],
+          "copyrights": [],
+          "filename": "json-20090211.jar",
+          "dependencyType": "MAVEN",
+          "checksums": {
+            "SHA1": "c183aa3a2a6250293808bba12262c8920ce5a51c",
+            "ADDITIONAL_SHA1": "0e88ed6a73b28b98443755ed76a4b560b332c2f2"
+          },
+          "dependencyFile": "C:\\WhiteSource\\Projects\\JavaVulnerableLab-master\\bin\\pom.xml",
+          "additionalSha1": "0e88ed6a73b28b98443755ed76a4b560b332c2f2",
+          "deduped": false,
+          "dependencyModulesToPaths": {},
+          "euaArtifactId": "json",
+          "aggregatedDependencies": []
+        },
+        {
+          "groupId": "javax.servlet",
+          "artifactId": "jstl",
+          "version": "1.2",
+          "type": "jar",
+          "scope": "compile",
+          "sha1": "74aca283cd4f4b4f3e425f5820cda58f44409547",
+          "systemPath": "C:\\Users\\wrbej\\.m2\\repository\\javax\\servlet\\jstl\\1.2\\jstl-1.2.jar",
+          "optional": false,
+          "children": [],
+          "exclusions": [],
+          "licenses": [],
+          "copyrights": [],
+          "filename": "jstl-1.2.jar",
+          "dependencyType": "MAVEN",
+          "checksums": {
+            "SHA1": "74aca283cd4f4b4f3e425f5820cda58f44409547",
+            "ADDITIONAL_SHA1": "3bb461ec1ec15e5a7a4d29d770afbd7517104258"
+          },
+          "dependencyFile": "C:\\WhiteSource\\Projects\\JavaVulnerableLab-master\\bin\\pom.xml",
+          "additionalSha1": "3bb461ec1ec15e5a7a4d29d770afbd7517104258",
+          "deduped": false,
+          "dependencyModulesToPaths": {},
+          "euaArtifactId": "jstl",
+          "aggregatedDependencies": []
+        },
+        {
+          "groupId": "org.hibernate",
+          "artifactId": "hibernate-core",
+          "version": "4.0.1.Final",
+          "type": "jar",
+          "scope": "compile",
+          "sha1": "9e1b7e06d8148394632bcaeb7a5f68748c69dce4",
+          "systemPath": "C:\\Users\\wrbej\\.m2\\repository\\org\\hibernate\\hibernate-core\\4.0.1.Final\\hibernate-core-4.0.1.Final.jar",
+          "optional": false,
+          "children": [
+            {
+              "groupId": "commons-collections",
+              "artifactId": "commons-collections",
+              "version": "3.2.1",
+              "type": "jar",
+              "scope": "compile",
+              "sha1": "761ea405b9b37ced573d2df0d1e3a4e0f9edc668",
+              "systemPath": "C:\\Users\\wrbej\\.m2\\repository\\commons-collections\\commons-collections\\3.2.1\\commons-collections-3.2.1.jar",
+              "optional": false,
+              "children": [],
+              "exclusions": [],
+              "licenses": [],
+              "copyrights": [],
+              "filename": "commons-collections-3.2.1.jar",
+              "dependencyType": "MAVEN",
+              "checksums": {
+                "SHA1": "761ea405b9b37ced573d2df0d1e3a4e0f9edc668",
+                "ADDITIONAL_SHA1": "4ad6a7c1d44095c5150b8fb101b7309b0087d731"
+              },
+              "dependencyFile": "C:\\WhiteSource\\Projects\\JavaVulnerableLab-master\\bin\\pom.xml",
+              "additionalSha1": "4ad6a7c1d44095c5150b8fb101b7309b0087d731",
+              "deduped": false,
+              "dependencyModulesToPaths": {},
+              "euaArtifactId": "commons-collections",
+              "aggregatedDependencies": []
+            },
+            {
+              "groupId": "antlr",
+              "artifactId": "antlr",
+              "version": "2.7.7",
+              "type": "jar",
+              "scope": "compile",
+              "sha1": "83cd2cd674a217ade95a4bb83a8a14f351f48bd0",
+              "systemPath": "C:\\Users\\wrbej\\.m2\\repository\\antlr\\antlr\\2.7.7\\antlr-2.7.7.jar",
+              "optional": false,
+              "children": [],
+              "exclusions": [],
+              "licenses": [],
+              "copyrights": [],
+              "filename": "antlr-2.7.7.jar",
+              "dependencyType": "MAVEN",
+              "checksums": {
+                "SHA1": "83cd2cd674a217ade95a4bb83a8a14f351f48bd0",
+                "ADDITIONAL_SHA1": "5a4502630eed076c2b6db03abe1bf2b41bb02824"
+              },
+              "dependencyFile": "C:\\WhiteSource\\Projects\\JavaVulnerableLab-master\\bin\\pom.xml",
+              "additionalSha1": "5a4502630eed076c2b6db03abe1bf2b41bb02824",
+              "deduped": false,
+              "dependencyModulesToPaths": {},
+              "euaArtifactId": "antlr",
+              "aggregatedDependencies": []
+            },
+            {
+              "groupId": "org.jboss.spec.javax.transaction",
+              "artifactId": "jboss-transaction-api_1.1_spec",
+              "version": "1.0.0.Final",
+              "type": "jar",
+              "scope": "compile",
+              "sha1": "2ab6236535e085d86f37fd97ddfdd35c88c1a419",
+              "systemPath": "C:\\Users\\wrbej\\.m2\\repository\\org\\jboss\\spec\\javax\\transaction\\jboss-transaction-api_1.1_spec\\1.0.0.Final\\jboss-transaction-api_1.1_spec-1.0.0.Final.jar",
+              "optional": false,
+              "children": [],
+              "exclusions": [],
+              "licenses": [],
+              "copyrights": [],
+              "filename": "jboss-transaction-api_1.1_spec-1.0.0.Final.jar",
+              "dependencyType": "MAVEN",
+              "checksums": {
+                "SHA1": "2ab6236535e085d86f37fd97ddfdd35c88c1a419",
+                "ADDITIONAL_SHA1": "6894d34095b6767ca5288020059d95136a1d4e7f"
+              },
+              "dependencyFile": "C:\\WhiteSource\\Projects\\JavaVulnerableLab-master\\bin\\pom.xml",
+              "additionalSha1": "6894d34095b6767ca5288020059d95136a1d4e7f",
+              "deduped": false,
+              "dependencyModulesToPaths": {},
+              "euaArtifactId": "jboss-transaction-api_1.1_spec",
+              "aggregatedDependencies": []
+            },
+            {
+              "groupId": "dom4j",
+              "artifactId": "dom4j",
+              "version": "1.6.1",
+              "type": "jar",
+              "scope": "compile",
+              "sha1": "5d3ccc056b6f056dbf0dddfdf43894b9065a8f94",
+              "systemPath": "C:\\Users\\wrbej\\.m2\\repository\\dom4j\\dom4j\\1.6.1\\dom4j-1.6.1.jar",
+              "optional": false,
+              "children": [
+                {
+                  "groupId": "xml-apis",
+                  "artifactId": "xml-apis",
+                  "version": "1.0.b2",
+                  "type": "jar",
+                  "scope": "compile",
+                  "sha1": "3136ca936f64c9d68529f048c2618bd356bf85c9",
+                  "systemPath": "C:\\Users\\wrbej\\.m2\\repository\\xml-apis\\xml-apis\\1.0.b2\\xml-apis-1.0.b2.jar",
+                  "optional": false,
+                  "children": [],
+                  "exclusions": [],
+                  "licenses": [],
+                  "copyrights": [],
+                  "filename": "xml-apis-1.0.b2.jar",
+                  "dependencyType": "MAVEN",
+                  "checksums": {
+                    "SHA1": "3136ca936f64c9d68529f048c2618bd356bf85c9",
+                    "ADDITIONAL_SHA1": "e131146513ac8916c7f32df59d14f6c037edaa60"
+                  },
+                  "dependencyFile": "C:\\WhiteSource\\Projects\\JavaVulnerableLab-master\\bin\\pom.xml",
+                  "additionalSha1": "e131146513ac8916c7f32df59d14f6c037edaa60",
+                  "deduped": false,
+                  "dependencyModulesToPaths": {},
+                  "euaArtifactId": "xml-apis",
+                  "aggregatedDependencies": []
+                }
+              ],
+              "exclusions": [],
+              "licenses": [],
+              "copyrights": [],
+              "filename": "dom4j-1.6.1.jar",
+              "dependencyType": "MAVEN",
+              "checksums": {
+                "SHA1": "5d3ccc056b6f056dbf0dddfdf43894b9065a8f94",
+                "ADDITIONAL_SHA1": "754dd136d09d6f9bffe2142d9474a085419c67f3"
+              },
+              "dependencyFile": "C:\\WhiteSource\\Projects\\JavaVulnerableLab-master\\bin\\pom.xml",
+              "additionalSha1": "754dd136d09d6f9bffe2142d9474a085419c67f3",
+              "deduped": false,
+              "dependencyModulesToPaths": {},
+              "euaArtifactId": "dom4j",
+              "aggregatedDependencies": []
+            },
+            {
+              "groupId": "org.hibernate.javax.persistence",
+              "artifactId": "hibernate-jpa-2.0-api",
+              "version": "1.0.1.Final",
+              "type": "jar",
+              "scope": "compile",
+              "sha1": "3306a165afa81938fc3d8a0948e891de9f6b192b",
+              "systemPath": "C:\\Users\\wrbej\\.m2\\repository\\org\\hibernate\\javax\\persistence\\hibernate-jpa-2.0-api\\1.0.1.Final\\hibernate-jpa-2.0-api-1.0.1.Final.jar",
+              "optional": false,
+              "children": [],
+              "exclusions": [],
+              "licenses": [],
+              "copyrights": [],
+              "filename": "hibernate-jpa-2.0-api-1.0.1.Final.jar",
+              "dependencyType": "MAVEN",
+              "checksums": {
+                "SHA1": "3306a165afa81938fc3d8a0948e891de9f6b192b",
+                "ADDITIONAL_SHA1": "7023d5cbea171883a61866154e7f736e726e4039"
+              },
+              "dependencyFile": "C:\\WhiteSource\\Projects\\JavaVulnerableLab-master\\bin\\pom.xml",
+              "additionalSha1": "7023d5cbea171883a61866154e7f736e726e4039",
+              "deduped": false,
+              "dependencyModulesToPaths": {},
+              "euaArtifactId": "hibernate-jpa-2.0-api",
+              "aggregatedDependencies": []
+            },
+            {
+              "groupId": "org.jboss.logging",
+              "artifactId": "jboss-logging",
+              "version": "3.1.0.CR2",
+              "type": "jar",
+              "scope": "compile",
+              "sha1": "28725380c07f917ace4e511db21cc45e9ae5a72b",
+              "systemPath": "C:\\Users\\wrbej\\.m2\\repository\\org\\jboss\\logging\\jboss-logging\\3.1.0.CR2\\jboss-logging-3.1.0.CR2.jar",
+              "optional": false,
+              "children": [],
+              "exclusions": [],
+              "licenses": [],
+              "copyrights": [],
+              "filename": "jboss-logging-3.1.0.CR2.jar",
+              "dependencyType": "MAVEN",
+              "checksums": {
+                "SHA1": "28725380c07f917ace4e511db21cc45e9ae5a72b",
+                "ADDITIONAL_SHA1": "5b22a3fea46f74b053b2493654eaed7b9b1d7fb9"
+              },
+              "dependencyFile": "C:\\WhiteSource\\Projects\\JavaVulnerableLab-master\\bin\\pom.xml",
+              "additionalSha1": "5b22a3fea46f74b053b2493654eaed7b9b1d7fb9",
+              "deduped": false,
+              "dependencyModulesToPaths": {},
+              "euaArtifactId": "jboss-logging",
+              "aggregatedDependencies": []
+            },
+            {
+              "groupId": "org.javassist",
+              "artifactId": "javassist",
+              "version": "3.15.0-GA",
+              "type": "jar",
+              "scope": "compile",
+              "sha1": "79907309ca4bb4e5e51d4086cc4179b2611358d7",
+              "systemPath": "C:\\Users\\wrbej\\.m2\\repository\\org\\javassist\\javassist\\3.15.0-GA\\javassist-3.15.0-GA.jar",
+              "optional": false,
+              "children": [],
+              "exclusions": [],
+              "licenses": [],
+              "copyrights": [],
+              "filename": "javassist-3.15.0-GA.jar",
+              "dependencyType": "MAVEN",
+              "checksums": {
+                "SHA1": "79907309ca4bb4e5e51d4086cc4179b2611358d7",
+                "ADDITIONAL_SHA1": "11aac2f9b153ac2a7de3a39bf0b7c54ab2a700c7"
+              },
+              "dependencyFile": "C:\\WhiteSource\\Projects\\JavaVulnerableLab-master\\bin\\pom.xml",
+              "additionalSha1": "11aac2f9b153ac2a7de3a39bf0b7c54ab2a700c7",
+              "deduped": false,
+              "dependencyModulesToPaths": {},
+              "euaArtifactId": "javassist",
+              "aggregatedDependencies": []
+            },
+            {
+              "groupId": "org.hibernate.common",
+              "artifactId": "hibernate-commons-annotations",
+              "version": "4.0.1.Final",
+              "type": "jar",
+              "scope": "compile",
+              "sha1": "78bcf608d997d0529be2f4f781fdc89e801c9e88",
+              "systemPath": "C:\\Users\\wrbej\\.m2\\repository\\org\\hibernate\\common\\hibernate-commons-annotations\\4.0.1.Final\\hibernate-commons-annotations-4.0.1.Final.jar",
+              "optional": false,
+              "children": [],
+              "exclusions": [],
+              "licenses": [],
+              "copyrights": [],
+              "filename": "hibernate-commons-annotations-4.0.1.Final.jar",
+              "dependencyType": "MAVEN",
+              "checksums": {
+                "SHA1": "78bcf608d997d0529be2f4f781fdc89e801c9e88",
+                "ADDITIONAL_SHA1": "4f740e7c6d35ea0f6964d0108baa370bc7e5db9c"
+              },
+              "dependencyFile": "C:\\WhiteSource\\Projects\\JavaVulnerableLab-master\\bin\\pom.xml",
+              "additionalSha1": "4f740e7c6d35ea0f6964d0108baa370bc7e5db9c",
+              "deduped": false,
+              "dependencyModulesToPaths": {},
+              "euaArtifactId": "hibernate-commons-annotations",
+              "aggregatedDependencies": []
+            }
+          ],
+          "exclusions": [],
+          "licenses": [],
+          "copyrights": [],
+          "filename": "hibernate-core-4.0.1.Final.jar",
+          "dependencyType": "MAVEN",
+          "checksums": {
+            "SHA1": "9e1b7e06d8148394632bcaeb7a5f68748c69dce4",
+            "ADDITIONAL_SHA1": "ac514576a00158ee72e5bc0425fabb9420b812e3"
+          },
+          "dependencyFile": "C:\\WhiteSource\\Projects\\JavaVulnerableLab-master\\bin\\pom.xml",
+          "additionalSha1": "ac514576a00158ee72e5bc0425fabb9420b812e3",
+          "deduped": false,
+          "dependencyModulesToPaths": {},
+          "euaArtifactId": "hibernate-core",
+          "aggregatedDependencies": []
+        }
+      ],
+      "projectTags": []
+    }
+  ],
+  "aggregateModules": false,
+  "preserveModuleStructure": false,
+  "extraProperties": {},
+  "scanSummaryInfo": {
+    "totalElapsedTime": 5835,
+    "stepsSummaryInfo": [
+      {
+        "stepName": "Fetch Configuration",
+        "totalElapsedTime": 93,
+        "isSubStep": false,
+        "stepCompletionStatus": "COMPLETED",
+        "subStepsInfo": []
+      },
+      {
+        "totalUniqueDependenciesFound": 13,
+        "totalDuplicateDependenciesFound": 0,
+        "stepName": "Pre-Step And Resolve Dependencies",
+        "totalElapsedTime": 5541,
+        "isSubStep": false,
+        "stepCompletionStatus": "COMPLETED",
+        "subStepsInfo": [
+          {
+            "totalUniqueDependenciesFound": 13,
+            "totalDuplicateDependenciesFound": 0,
+            "stepName": "MAVEN",
+            "totalElapsedTime": 5541,
+            "isSubStep": true,
+            "stepCompletionStatus": "COMPLETED",
+            "subStepsInfo": []
+          }
+        ]
+      },
+      {
+        "totalSourceBinariesFound": 0,
+        "stepName": "Scan Files Matching Includes Pattern",
+        "totalElapsedTime": 201,
+        "isSubStep": false,
+        "stepCompletionStatus": "COMPLETED",
+        "subStepsInfo": []
+      }
+    ],
+    "packageManagers": [
+      "MAVEN"
+    ],
+    "sourceControlManagers": [],
+    "containerRegistries": [],
+    "otherIntegrationTypes": [],
+    "isPrivileged": true,
+    "scanMethod": {
+      "type": "Regular",
+      "version": ""
+    }
+  }
+}

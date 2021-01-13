@@ -1,0 +1,660 @@
+[INFO] [2020-12-07 16:01:09,976 -0300] - UnifiedAgent version (pluginVersion) : 20.11.2
+[INFO] [2020-12-07 16:01:10,088 -0300[ - 
+------------------------------------------------------------------------
+-------------------- Start: Fetch Configuration ------------------------
+------------------------------------------------------------------------
+[INFO] [2020-12-07 16:01:10,088 -0300[ - 
+------------------------------------------------------------------------
+-------------------- End: Fetch Configuration --------------------------
+------------------------------------------------------------------------
+[INFO] [2020-12-07 16:01:10,104 -0300[ - 
+##### general #####
+wss.url=https://saas.whitesourcesoftware.com/agent
+whiteSourceFolderPath=C:\WhiteSource\Projects\JavaVulnerableLab-master\.ws\temp
+userKey=******
+projectTag=
+projectName=JavaVulnerableLab-master
+productName=WS-CLI
+offline=true
+includes=**/*.c,**/*.cc,**/*.cp,**/*.cpp,**/*.cxx,**/*.c\+\+,**/*.h,**/*.hh,**/*.hpp,**/*.hxx,**/*.h\+\+,**/*.m,**/*.mm,**/*.pch,**/*.c#,**/*.cs,**/*.csharp,**/*.go,**/*.goc,**/*.js,**/*.pl,**/*.plx,**/*.pm,**/*.ph,**/*.cgi,**/*.fcgi,**/*.pod,**/*.psgi,**/*.al,**/*.perl,**/*.t,**/*.pl6,**/*.p6m,**/*.p6l,**/*.pm6,**/*.nqp,**/*.6pl,**/*.6pm,**/*.p6,**/*.php,**/*.py,**/*.rb,**/*.swift,**/*.java,**/*.clj,**/*.cljx,**/*.cljs,**/*.cljc,**/*.jar,**/*.egg,**/*.dll,**/*.tar.gz,**/*.tgz,**/*.zip,**/*.whl,**/*.gem,**/*.apk,**/*.air,**/*.dmg,**/*.exe,**/*.gem,**/*.gzip,**/*.msi,**/*.nupkg,**/*.swc,**/*.swf,**/*.tar.bz2,**/*.pkg.tar.xz,**/*.(u)?deb,**/*.(a)?rpm
+excludes=.ws\**,**\node_modules\**
+configFilePath=DEFAULT
+apiKey=******
+#updateType=OVERRIDE
+#updateInventory=true
+#updateEmptyProject=true
+#scanReportTimeoutMinutes=10
+#scanReportFilenameFormat=project_with_timestamp
+#scanPackageManager=false
+#scanComment=
+#resolveAllDependencies=true
+#requireKnownSha1=true
+#requesterEmail=
+#recommendationDetector=false
+#projectVersion=
+#projectToken=
+#projectPerFolderIncludes=*
+#projectPerFolderExcludes=
+#projectPerFolder=false
+#productVersion=
+#productToken=
+#offline.zip=false
+#offline.prettyJson=true
+#log.level=info
+#ignoreSourceFiles=false
+#iaLanguage=
+#generateScanReport=false
+#generateProjectDetailsJson=false
+#forceUpdate.failBuildOnPolicyViolation=false
+#forceUpdate=false
+#forceCheckAllDependencies=false
+#failErrorLevel=DEFAULT
+#excludeDependenciesFromNodes=
+#euaVul=euaVul.json
+#euaRes=euaRes.json
+#euaOffline=
+#euaDep=euaDep.json
+#enableImpactAnalysis=false
+#docker.scanContainers=false
+#checkPolicies=false
+#appPath=
+#analyzeMultiModule=
+#analyzeFrameworksReference=analyzeFrameworks.txt
+#analyzeFrameworks=false
+
+#####  #####
+#ignoreEuaNotices=informational
+
+##### ANT #####
+#ant.resolveDependencies=true
+#ant.pathIdIncludes=
+#ant.external.parameters=
+
+##### archive #####
+#archiveIncludes=
+#archiveExtractionDepth=0
+#archiveExcludes=
+
+##### artifactory #####
+#artifactory.userPassword=
+#artifactory.userName=
+#artifactory.url=
+#artifactory.repoKeys=
+#artifactory.includes=.*.*
+#artifactory.excludes=
+#artifactory.enableScan=false
+#artifactory.accessToken=
+
+##### bazel #####
+#bazel.runPreStep=false
+#bazel.resolveDependencies=true
+
+##### bower #####
+#bower.runPreStep=false
+#bower.resolveDependencies=true
+#bower.ignoreSourceFiles=false
+
+##### cabal #####
+#haskell.resolveDependencies=true
+
+##### cargo #####
+#cargo.runPreStep=false
+#cargo.resolveDependencies=true
+#cargo.ignoreSourceFiles=true
+
+##### cocoapods #####
+#cocoapods.runPreStep=false
+#cocoapods.resolveDependencies=true
+#cocoapods.ignoreSourceFiles=true
+
+##### docker #####
+#docker.scanTarFiles=false
+#docker.scanImages=false
+#docker.scan.maxImages=0
+#docker.pull.tags=
+#docker.pull.maxImages=10
+#docker.pull.images=
+#docker.pull.force=false
+#docker.pull.enable=false
+#docker.pull.digest=
+#docker.projectNameFormat=default
+#docker.login.sudo=true
+#docker.layers=false
+#docker.includes=.*.*
+#docker.includeSingleScan=
+#docker.excludes=
+#docker.excludeBaseImage=false
+#docker.dockerfilePath=
+#docker.delete.force=false
+#docker.containerIncludes=.*.*
+#docker.containerExcludes=
+
+##### docker artifactory #####
+#docker.artifactory.userPassword=
+#docker.artifactory.userName=
+#docker.artifactory.url=
+#docker.artifactory.repositoriesNames=
+#docker.artifactory.pullUrl=
+#docker.artifactory.enable=false
+#docker.artifactory.dockerAccessMethod= 
+
+##### docker aws #####
+#docker.aws.registryIds=
+#docker.aws.region=east
+#docker.aws.enable=false
+
+##### docker azure #####
+#docker.azure.userPassword=
+#docker.azure.userName=
+#docker.azure.registryNames=
+#docker.azure.registryAuthenticationParameters=
+#docker.azure.enable=false
+#docker.azure.authenticationType=UserAccount
+
+##### docker google containers #####
+#docker.gcr.repositories=
+#docker.gcr.enable=false
+#docker.gcr.account=
+
+##### docker hub #####
+#docker.hub.userPassword=
+#docker.hub.userName=
+#docker.hub.organizationsNames=
+#docker.hub.enabled=false
+#docker.hub.accessToken=
+
+##### environment #####
+#followSymbolicLinks=true
+#case.sensitive.glob=false
+
+##### go #####
+#go.resolveDependencies=true
+#go.ignoreSourceFiles=false
+#go.gogradle.enableTaskAlias=false
+#go.glide.ignoreTestPackages=true
+#go.dependencyManager=
+#go.collectDependenciesAtRuntime=false
+
+##### gradle #####
+gradle.aggregateModules=true
+#gradle.wrapperPath=
+#gradle.runPreStep=false
+#gradle.runAssembleCommand=true
+#gradle.resolveDependencies=true
+#gradle.preferredEnvironment=gradle
+#gradle.multiModule.applyProjectVersion=false
+#gradle.localRepositoryPath=
+#gradle.includedScopes=
+#gradle.includedConfigurations=
+#gradle.includeModules=
+#gradle.ignoredScopes=
+#gradle.ignoredConfigurations=
+#gradle.ignoreSourceFiles=false
+#gradle.excludeModules=
+#gradle.downloadMissingDependencies=true
+#gradle.additionalArguments=
+
+##### hex #####
+#hex.runPreStep=false
+#hex.resolveDependencies=true
+#hex.ignoreSourceFiles=true
+#hex.aggregateModules=false
+
+##### html #####
+#html.resolveDependencies=true
+
+##### maven #####
+maven.aggregateModules=true
+#maven.runPreStep=false
+#maven.resolveDependencies=true
+#maven.projectNameFromDependencyFile=false
+#maven.multiModule.applyProjectVersion=false
+#maven.maxCacheFolderSize=
+#maven.m2RepositoryPath=
+#maven.ignoredScopes=provided,test
+#maven.ignoreSourceFiles=false
+#maven.ignorePomModules=true
+#maven.ignoreMvnTreeErrors=false
+#maven.environmentPath=
+#maven.downloadMissingDependencies=true
+#maven.additionalArguments=
+
+##### npm #####
+npm.identifyByNameAndVersion=true
+#npm.yarnProject=false
+#npm.yarn.frozenLockfile=false
+#npm.timeoutDependenciesCollectorInSeconds=60
+#npm.runPreStep=false
+#npm.resolveMainPackageJsonOnly=false
+#npm.resolveLockFile=false
+#npm.resolveGlobalPackages=false
+#npm.resolveDependencies=true
+#npm.resolveAdditionalDependencies=false
+#npm.removeDuplicateDependencies=true
+#npm.projectNameFromDependencyFile=false
+#npm.includeDevDependencies=false
+#npm.ignoreSourceFiles=true
+#npm.ignoreScripts=false
+#npm.ignoreNpmLsErrors=false
+#npm.ignoreJavaScriptFiles=true
+#npm.ignoreDirectoryPatterns=example,examples,.ws_bower,test
+#npm.failOnNpmLsErrors=
+#npm.accessToken=
+
+##### nuget #####
+#nuget.runPreStep=false
+#nuget.restoreDependencies=false
+#nuget.resolvePackagesConfigFiles=true
+#nuget.resolveNuspecFiles=true
+#nuget.resolveDependencies=true
+#nuget.resolveCsProjFiles=true
+#nuget.resolveAssetsFiles=true
+#nuget.preferredEnvironment=
+#nuget.packagesDirectory=
+#nuget.ignoreSourceFiles=true
+
+##### ocaml #####
+#ocaml.switchName=
+#ocaml.runPreStep=false
+#ocaml.resolveDependencies=true
+#ocaml.ignoredScopes=with-test,with-doc
+#ocaml.ignoreSourceFiles=false
+#ocaml.aggregateModules=false
+
+##### paket #####
+#paket.runPreStep=false
+#paket.resolveDependencies=true
+#paket.ignoredGroups=
+#paket.ignoreSourceFiles=true
+#paket.exePath=
+
+##### php #####
+#php.runPreStep=false
+#php.resolveDependencies=true
+#php.removeDuplicateDependencies=false
+#php.includeDevDependencies=false
+#php.ignoreSourceFiles=true
+
+##### python #####
+#python.runPoetryPreStep=false
+#python.runPipenvPreStep=false
+#python.resolveSetupPyFiles=false
+#python.resolvePipEditablePackages=false
+#python.resolveHierarchyTree=true
+#python.resolveGlobalPackages=false
+#python.resolveDependencies=true
+#python.requirementsFileIncludes=
+#python.pipenvDevDependencies=false
+#python.pipPath=pip
+#python.path=python
+#python.localPackagePathsToInstall=
+#python.isEmptyEnvironment=false
+#python.installVirtualenv=false
+#python.indexUrl=
+#python.includePoetryDevDependencies=false
+#python.ignoreSourceFiles=true
+#python.ignorePipInstallErrors=false
+#python.IgnorePipenvInstallErrors=false
+
+##### r_language #####
+#r.runPreStep=false
+#r.resolveDependencies=true
+#r.packageManager=packrat
+#r.ignoreSourceFiles=true
+#r.cranMirrorUrl=
+
+##### ruby #####
+#ruby.runBundleInstall=false
+#ruby.resolveDependencies=true
+#ruby.overwriteGemFile=false
+#ruby.installMissingGems=false
+#ruby.ignoreSourceFiles=true
+
+##### sbt #####
+#sbt.runPreStep=false
+#sbt.resolveDependencies=true
+#sbt.includedScopes=compile,runtime
+#sbt.ignoreSourceFiles=false
+#sbt.aggregateModules=false
+
+##### scm #####
+#scm.url=
+#scm.tag=
+#scm.branch=
+
+##### serverless #####
+#serverless.scanFunctions=false
+#serverless.region=
+#serverless.provider=aws-lambda
+#serverless.maxFunctions=10
+#serverless.includes=
+#serverless.excludes=
+
+[DEBUG] [2020-12-07 16:01:10,753 -0300[ - Available processors (cores): 	8
+Free memory (Mb): 	300
+Max memory (Mb): 	4044
+Total memory (Mb): 	382
+Used memory (Mb): 	81
+
+[INFO] [2020-12-07 16:01:10,753 -0300[ - Starting analysis
+[INFO] [2020-12-07 16:01:10,753 -0300[ - Scanning directories [C:\WhiteSource\Projects\JavaVulnerableLab-master] for package dependencies (may take a few minutes)
+[INFO] [2020-12-07 16:01:10,753 -0300[ - Included file types: **/*.c,**/*.cc,**/*.cp,**/*.cpp,**/*.cxx,**/*.c\+\+,**/*.h,**/*.hh,**/*.hpp,**/*.hxx,**/*.h\+\+,**/*.m,**/*.mm,**/*.pch,**/*.c#,**/*.cs,**/*.csharp,**/*.go,**/*.goc,**/*.js,**/*.pl,**/*.plx,**/*.pm,**/*.ph,**/*.cgi,**/*.fcgi,**/*.pod,**/*.psgi,**/*.al,**/*.perl,**/*.t,**/*.pl6,**/*.p6m,**/*.p6l,**/*.pm6,**/*.nqp,**/*.6pl,**/*.6pm,**/*.p6,**/*.php,**/*.py,**/*.rb,**/*.swift,**/*.java,**/*.clj,**/*.cljx,**/*.cljs,**/*.cljc,**/*.jar,**/*.egg,**/*.dll,**/*.tar.gz,**/*.tgz,**/*.zip,**/*.whl,**/*.gem,**/*.apk,**/*.air,**/*.dmg,**/*.exe,**/*.gem,**/*.gzip,**/*.msi,**/*.nupkg,**/*.swc,**/*.swf,**/*.tar.bz2,**/*.pkg.tar.xz,**/*.(u)?deb,**/*.(a)?rpm
+[INFO] [2020-12-07 16:01:10,753 -0300[ - Excluded file types: .ws\**,**\node_modules\**
+[INFO] [2020-12-07 16:01:10,753 -0300[ - 
+------------------------------------------------------------------------
+-------------------- Start: Scan Files Matching Includes Pattern -------
+------------------------------------------------------------------------
+[DEBUG] [2020-12-07 16:01:10,753 -0300[ - Scanning C:\WhiteSource\Projects\JavaVulnerableLab-master
+[DEBUG] [2020-12-07 16:01:10,870 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\pom.xml
+[DEBUG] [2020-12-07 16:01:10,877 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\src\main\webapp\admin\AddPage.jsp
+[DEBUG] [2020-12-07 16:01:10,877 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\src\main\webapp\admin\admin.jsp
+[DEBUG] [2020-12-07 16:01:10,877 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\src\main\webapp\admin\adminlogin.jsp
+[DEBUG] [2020-12-07 16:01:10,877 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\src\main\webapp\admin\Configure.jsp
+[DEBUG] [2020-12-07 16:01:10,877 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\src\main\webapp\admin\index.jsp
+[DEBUG] [2020-12-07 16:01:10,877 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\src\main\webapp\admin\manageusers.jsp
+[DEBUG] [2020-12-07 16:01:10,877 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\src\main\webapp\changeCardDetails.jsp
+[DEBUG] [2020-12-07 16:01:10,877 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\src\main\webapp\footer.jsp
+[DEBUG] [2020-12-07 16:01:10,877 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\src\main\webapp\ForgotPassword.jsp
+[DEBUG] [2020-12-07 16:01:10,877 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\src\main\webapp\header.jsp
+[DEBUG] [2020-12-07 16:01:10,877 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\src\main\webapp\index.jsp
+[DEBUG] [2020-12-07 16:01:10,877 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\src\main\webapp\install.jsp
+[DEBUG] [2020-12-07 16:01:10,877 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\src\main\webapp\login.jsp
+[DEBUG] [2020-12-07 16:01:10,877 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\src\main\webapp\myprofile.jsp
+[DEBUG] [2020-12-07 16:01:10,877 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\src\main\webapp\Register.jsp
+[DEBUG] [2020-12-07 16:01:10,877 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\src\main\webapp\vulnerability\baasm\SiteTitle.jsp
+[DEBUG] [2020-12-07 16:01:10,877 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\src\main\webapp\vulnerability\baasm\URLRewriting.jsp
+[DEBUG] [2020-12-07 16:01:10,877 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\src\main\webapp\vulnerability\csrf\change-info.jsp
+[DEBUG] [2020-12-07 16:01:10,877 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\src\main\webapp\vulnerability\csrf\changepassword.jsp
+[DEBUG] [2020-12-07 16:01:10,877 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\src\main\webapp\vulnerability\DisplayMessage.jsp
+[DEBUG] [2020-12-07 16:01:10,877 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\src\main\webapp\vulnerability\forum.jsp
+[DEBUG] [2020-12-07 16:01:10,877 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\src\main\webapp\vulnerability\forumposts.jsp
+[DEBUG] [2020-12-07 16:01:10,877 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\src\main\webapp\vulnerability\forumUsersList.jsp
+[DEBUG] [2020-12-07 16:01:10,877 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\src\main\webapp\vulnerability\idor\change-email.jsp
+[DEBUG] [2020-12-07 16:01:10,877 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\src\main\webapp\vulnerability\idor\download.jsp
+[DEBUG] [2020-12-07 16:01:10,877 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\src\main\webapp\vulnerability\Injection\orm.jsp
+[DEBUG] [2020-12-07 16:01:10,877 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\src\main\webapp\vulnerability\Injection\xpath_login.jsp
+[DEBUG] [2020-12-07 16:01:10,877 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\src\main\webapp\vulnerability\Injection\xslt.jsp
+[DEBUG] [2020-12-07 16:01:10,877 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\src\main\webapp\vulnerability\Injection\xxe.jsp
+[DEBUG] [2020-12-07 16:01:10,877 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\src\main\webapp\vulnerability\Messages.jsp
+[DEBUG] [2020-12-07 16:01:10,877 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\src\main\webapp\vulnerability\mfac\SearchEngines.jsp
+[DEBUG] [2020-12-07 16:01:10,877 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\src\main\webapp\vulnerability\sde\hash.jsp
+[DEBUG] [2020-12-07 16:01:10,877 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\src\main\webapp\vulnerability\securitymisconfig\pages.jsp
+[DEBUG] [2020-12-07 16:01:10,877 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\src\main\webapp\vulnerability\SendMessage.jsp
+[DEBUG] [2020-12-07 16:01:10,877 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\src\main\webapp\vulnerability\sqli\download.jsp
+[DEBUG] [2020-12-07 16:01:10,877 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\src\main\webapp\vulnerability\sqli\download_id.jsp
+[DEBUG] [2020-12-07 16:01:10,877 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\src\main\webapp\vulnerability\sqli\download_id_union.jsp
+[DEBUG] [2020-12-07 16:01:10,877 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\src\main\webapp\vulnerability\sqli\union2.jsp
+[DEBUG] [2020-12-07 16:01:10,877 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\src\main\webapp\vulnerability\unvalidated\OpenForward.jsp
+[DEBUG] [2020-12-07 16:01:10,877 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\src\main\webapp\vulnerability\unvalidated\OpenURL.jsp
+[DEBUG] [2020-12-07 16:01:10,877 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\src\main\webapp\vulnerability\UserDetails.jsp
+[DEBUG] [2020-12-07 16:01:10,877 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\src\main\webapp\vulnerability\xss\flash\exss.jsp
+[DEBUG] [2020-12-07 16:01:10,877 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\src\main\webapp\vulnerability\xss\search.jsp
+[DEBUG] [2020-12-07 16:01:10,877 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\src\main\webapp\vulnerability\xss\xss4.jsp
+[DEBUG] [2020-12-07 16:01:10,877 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\src\main\webapp\WEB-INF\AdminPanel.jsp
+[DEBUG] [2020-12-07 16:01:10,892 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\target\JavaVulnerableLab\admin\AddPage.jsp
+[DEBUG] [2020-12-07 16:01:10,892 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\target\JavaVulnerableLab\admin\admin.jsp
+[DEBUG] [2020-12-07 16:01:10,892 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\target\JavaVulnerableLab\admin\adminlogin.jsp
+[DEBUG] [2020-12-07 16:01:10,892 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\target\JavaVulnerableLab\admin\Configure.jsp
+[DEBUG] [2020-12-07 16:01:10,892 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\target\JavaVulnerableLab\admin\index.jsp
+[DEBUG] [2020-12-07 16:01:10,892 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\target\JavaVulnerableLab\admin\manageusers.jsp
+[DEBUG] [2020-12-07 16:01:10,892 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\target\JavaVulnerableLab\changeCardDetails.jsp
+[DEBUG] [2020-12-07 16:01:10,892 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\target\JavaVulnerableLab\footer.jsp
+[DEBUG] [2020-12-07 16:01:10,892 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\target\JavaVulnerableLab\ForgotPassword.jsp
+[DEBUG] [2020-12-07 16:01:10,892 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\target\JavaVulnerableLab\header.jsp
+[DEBUG] [2020-12-07 16:01:10,892 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\target\JavaVulnerableLab\index.jsp
+[DEBUG] [2020-12-07 16:01:10,892 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\target\JavaVulnerableLab\install.jsp
+[DEBUG] [2020-12-07 16:01:10,892 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\target\JavaVulnerableLab\login.jsp
+[DEBUG] [2020-12-07 16:01:10,892 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\target\JavaVulnerableLab\myprofile.jsp
+[DEBUG] [2020-12-07 16:01:10,892 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\target\JavaVulnerableLab\Register.jsp
+[DEBUG] [2020-12-07 16:01:10,892 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\target\JavaVulnerableLab\vulnerability\baasm\SiteTitle.jsp
+[DEBUG] [2020-12-07 16:01:10,892 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\target\JavaVulnerableLab\vulnerability\baasm\URLRewriting.jsp
+[DEBUG] [2020-12-07 16:01:10,892 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\target\JavaVulnerableLab\vulnerability\csrf\change-info.jsp
+[DEBUG] [2020-12-07 16:01:10,892 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\target\JavaVulnerableLab\vulnerability\csrf\changepassword.jsp
+[DEBUG] [2020-12-07 16:01:10,892 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\target\JavaVulnerableLab\vulnerability\DisplayMessage.jsp
+[DEBUG] [2020-12-07 16:01:10,892 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\target\JavaVulnerableLab\vulnerability\forum.jsp
+[DEBUG] [2020-12-07 16:01:10,892 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\target\JavaVulnerableLab\vulnerability\forumposts.jsp
+[DEBUG] [2020-12-07 16:01:10,892 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\target\JavaVulnerableLab\vulnerability\forumUsersList.jsp
+[DEBUG] [2020-12-07 16:01:10,892 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\target\JavaVulnerableLab\vulnerability\idor\change-email.jsp
+[DEBUG] [2020-12-07 16:01:10,892 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\target\JavaVulnerableLab\vulnerability\idor\download.jsp
+[DEBUG] [2020-12-07 16:01:10,892 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\target\JavaVulnerableLab\vulnerability\Injection\orm.jsp
+[DEBUG] [2020-12-07 16:01:10,892 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\target\JavaVulnerableLab\vulnerability\Injection\xpath_login.jsp
+[DEBUG] [2020-12-07 16:01:10,892 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\target\JavaVulnerableLab\vulnerability\Injection\xslt.jsp
+[DEBUG] [2020-12-07 16:01:10,892 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\target\JavaVulnerableLab\vulnerability\Injection\xxe.jsp
+[DEBUG] [2020-12-07 16:01:10,892 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\target\JavaVulnerableLab\vulnerability\Messages.jsp
+[DEBUG] [2020-12-07 16:01:10,892 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\target\JavaVulnerableLab\vulnerability\mfac\SearchEngines.jsp
+[DEBUG] [2020-12-07 16:01:10,908 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\target\JavaVulnerableLab\vulnerability\sde\hash.jsp
+[DEBUG] [2020-12-07 16:01:10,908 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\target\JavaVulnerableLab\vulnerability\securitymisconfig\pages.jsp
+[DEBUG] [2020-12-07 16:01:10,908 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\target\JavaVulnerableLab\vulnerability\SendMessage.jsp
+[DEBUG] [2020-12-07 16:01:10,908 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\target\JavaVulnerableLab\vulnerability\sqli\download.jsp
+[DEBUG] [2020-12-07 16:01:10,908 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\target\JavaVulnerableLab\vulnerability\sqli\download_id.jsp
+[DEBUG] [2020-12-07 16:01:10,908 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\target\JavaVulnerableLab\vulnerability\sqli\download_id_union.jsp
+[DEBUG] [2020-12-07 16:01:10,908 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\target\JavaVulnerableLab\vulnerability\sqli\union2.jsp
+[DEBUG] [2020-12-07 16:01:10,908 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\target\JavaVulnerableLab\vulnerability\unvalidated\OpenForward.jsp
+[DEBUG] [2020-12-07 16:01:10,908 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\target\JavaVulnerableLab\vulnerability\unvalidated\OpenURL.jsp
+[DEBUG] [2020-12-07 16:01:10,908 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\target\JavaVulnerableLab\vulnerability\UserDetails.jsp
+[DEBUG] [2020-12-07 16:01:10,908 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\target\JavaVulnerableLab\vulnerability\xss\flash\exss.jsp
+[DEBUG] [2020-12-07 16:01:10,908 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\target\JavaVulnerableLab\vulnerability\xss\search.jsp
+[DEBUG] [2020-12-07 16:01:10,908 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\target\JavaVulnerableLab\vulnerability\xss\xss4.jsp
+[DEBUG] [2020-12-07 16:01:10,908 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\target\JavaVulnerableLab\WEB-INF\AdminPanel.jsp
+[DEBUG] [2020-12-07 16:01:10,908 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\pom.xml
+[DEBUG] [2020-12-07 16:01:10,923 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\src\main\webapp\admin\AddPage.jsp
+[DEBUG] [2020-12-07 16:01:10,923 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\src\main\webapp\admin\admin.jsp
+[DEBUG] [2020-12-07 16:01:10,923 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\src\main\webapp\admin\adminlogin.jsp
+[DEBUG] [2020-12-07 16:01:10,923 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\src\main\webapp\admin\Configure.jsp
+[DEBUG] [2020-12-07 16:01:10,923 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\src\main\webapp\admin\index.jsp
+[DEBUG] [2020-12-07 16:01:10,923 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\src\main\webapp\admin\manageusers.jsp
+[DEBUG] [2020-12-07 16:01:10,923 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\src\main\webapp\changeCardDetails.jsp
+[DEBUG] [2020-12-07 16:01:10,923 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\src\main\webapp\footer.jsp
+[DEBUG] [2020-12-07 16:01:10,923 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\src\main\webapp\ForgotPassword.jsp
+[DEBUG] [2020-12-07 16:01:10,923 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\src\main\webapp\header.jsp
+[DEBUG] [2020-12-07 16:01:10,923 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\src\main\webapp\index.jsp
+[DEBUG] [2020-12-07 16:01:10,923 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\src\main\webapp\install.jsp
+[DEBUG] [2020-12-07 16:01:10,923 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\src\main\webapp\login.jsp
+[DEBUG] [2020-12-07 16:01:10,923 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\src\main\webapp\myprofile.jsp
+[DEBUG] [2020-12-07 16:01:10,923 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\src\main\webapp\Register.jsp
+[DEBUG] [2020-12-07 16:01:10,923 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\src\main\webapp\vulnerability\baasm\SiteTitle.jsp
+[DEBUG] [2020-12-07 16:01:10,923 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\src\main\webapp\vulnerability\baasm\URLRewriting.jsp
+[DEBUG] [2020-12-07 16:01:10,923 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\src\main\webapp\vulnerability\csrf\change-info.jsp
+[DEBUG] [2020-12-07 16:01:10,923 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\src\main\webapp\vulnerability\csrf\changepassword.jsp
+[DEBUG] [2020-12-07 16:01:10,923 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\src\main\webapp\vulnerability\DisplayMessage.jsp
+[DEBUG] [2020-12-07 16:01:10,923 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\src\main\webapp\vulnerability\forum.jsp
+[DEBUG] [2020-12-07 16:01:10,923 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\src\main\webapp\vulnerability\forumposts.jsp
+[DEBUG] [2020-12-07 16:01:10,923 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\src\main\webapp\vulnerability\forumUsersList.jsp
+[DEBUG] [2020-12-07 16:01:10,923 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\src\main\webapp\vulnerability\idor\change-email.jsp
+[DEBUG] [2020-12-07 16:01:10,923 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\src\main\webapp\vulnerability\idor\download.jsp
+[DEBUG] [2020-12-07 16:01:10,923 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\src\main\webapp\vulnerability\Injection\orm.jsp
+[DEBUG] [2020-12-07 16:01:10,923 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\src\main\webapp\vulnerability\Injection\xpath_login.jsp
+[DEBUG] [2020-12-07 16:01:10,923 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\src\main\webapp\vulnerability\Injection\xslt.jsp
+[DEBUG] [2020-12-07 16:01:10,923 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\src\main\webapp\vulnerability\Injection\xxe.jsp
+[DEBUG] [2020-12-07 16:01:10,923 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\src\main\webapp\vulnerability\Messages.jsp
+[DEBUG] [2020-12-07 16:01:10,923 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\src\main\webapp\vulnerability\mfac\SearchEngines.jsp
+[DEBUG] [2020-12-07 16:01:10,923 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\src\main\webapp\vulnerability\sde\hash.jsp
+[DEBUG] [2020-12-07 16:01:10,923 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\src\main\webapp\vulnerability\securitymisconfig\pages.jsp
+[DEBUG] [2020-12-07 16:01:10,923 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\src\main\webapp\vulnerability\SendMessage.jsp
+[DEBUG] [2020-12-07 16:01:10,923 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\src\main\webapp\vulnerability\sqli\download.jsp
+[DEBUG] [2020-12-07 16:01:10,923 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\src\main\webapp\vulnerability\sqli\download_id.jsp
+[DEBUG] [2020-12-07 16:01:10,923 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\src\main\webapp\vulnerability\sqli\download_id_union.jsp
+[DEBUG] [2020-12-07 16:01:10,923 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\src\main\webapp\vulnerability\sqli\union2.jsp
+[DEBUG] [2020-12-07 16:01:10,923 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\src\main\webapp\vulnerability\unvalidated\OpenForward.jsp
+[DEBUG] [2020-12-07 16:01:10,923 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\src\main\webapp\vulnerability\unvalidated\OpenURL.jsp
+[DEBUG] [2020-12-07 16:01:10,923 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\src\main\webapp\vulnerability\UserDetails.jsp
+[DEBUG] [2020-12-07 16:01:10,939 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\src\main\webapp\vulnerability\xss\flash\exss.jsp
+[DEBUG] [2020-12-07 16:01:10,939 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\src\main\webapp\vulnerability\xss\search.jsp
+[DEBUG] [2020-12-07 16:01:10,939 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\src\main\webapp\vulnerability\xss\xss4.jsp
+[DEBUG] [2020-12-07 16:01:10,939 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\src\main\webapp\WEB-INF\AdminPanel.jsp
+[DEBUG] [2020-12-07 16:01:10,944 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\target\JavaVulnerableLab\admin\AddPage.jsp
+[DEBUG] [2020-12-07 16:01:10,944 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\target\JavaVulnerableLab\admin\admin.jsp
+[DEBUG] [2020-12-07 16:01:10,944 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\target\JavaVulnerableLab\admin\adminlogin.jsp
+[DEBUG] [2020-12-07 16:01:10,944 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\target\JavaVulnerableLab\admin\Configure.jsp
+[DEBUG] [2020-12-07 16:01:10,944 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\target\JavaVulnerableLab\admin\index.jsp
+[DEBUG] [2020-12-07 16:01:10,944 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\target\JavaVulnerableLab\admin\manageusers.jsp
+[DEBUG] [2020-12-07 16:01:10,944 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\target\JavaVulnerableLab\changeCardDetails.jsp
+[DEBUG] [2020-12-07 16:01:10,944 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\target\JavaVulnerableLab\footer.jsp
+[DEBUG] [2020-12-07 16:01:10,944 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\target\JavaVulnerableLab\ForgotPassword.jsp
+[DEBUG] [2020-12-07 16:01:10,944 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\target\JavaVulnerableLab\header.jsp
+[DEBUG] [2020-12-07 16:01:10,944 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\target\JavaVulnerableLab\index.jsp
+[DEBUG] [2020-12-07 16:01:10,944 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\target\JavaVulnerableLab\install.jsp
+[DEBUG] [2020-12-07 16:01:10,944 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\target\JavaVulnerableLab\login.jsp
+[DEBUG] [2020-12-07 16:01:10,944 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\target\JavaVulnerableLab\myprofile.jsp
+[DEBUG] [2020-12-07 16:01:10,944 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\target\JavaVulnerableLab\Register.jsp
+[DEBUG] [2020-12-07 16:01:10,944 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\target\JavaVulnerableLab\vulnerability\baasm\SiteTitle.jsp
+[DEBUG] [2020-12-07 16:01:10,944 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\target\JavaVulnerableLab\vulnerability\baasm\URLRewriting.jsp
+[DEBUG] [2020-12-07 16:01:10,944 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\target\JavaVulnerableLab\vulnerability\csrf\change-info.jsp
+[DEBUG] [2020-12-07 16:01:10,944 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\target\JavaVulnerableLab\vulnerability\csrf\changepassword.jsp
+[DEBUG] [2020-12-07 16:01:10,944 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\target\JavaVulnerableLab\vulnerability\DisplayMessage.jsp
+[DEBUG] [2020-12-07 16:01:10,944 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\target\JavaVulnerableLab\vulnerability\forum.jsp
+[DEBUG] [2020-12-07 16:01:10,944 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\target\JavaVulnerableLab\vulnerability\forumposts.jsp
+[DEBUG] [2020-12-07 16:01:10,944 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\target\JavaVulnerableLab\vulnerability\forumUsersList.jsp
+[DEBUG] [2020-12-07 16:01:10,944 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\target\JavaVulnerableLab\vulnerability\idor\change-email.jsp
+[DEBUG] [2020-12-07 16:01:10,944 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\target\JavaVulnerableLab\vulnerability\idor\download.jsp
+[DEBUG] [2020-12-07 16:01:10,944 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\target\JavaVulnerableLab\vulnerability\Injection\orm.jsp
+[DEBUG] [2020-12-07 16:01:10,944 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\target\JavaVulnerableLab\vulnerability\Injection\xpath_login.jsp
+[DEBUG] [2020-12-07 16:01:10,944 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\target\JavaVulnerableLab\vulnerability\Injection\xslt.jsp
+[DEBUG] [2020-12-07 16:01:10,944 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\target\JavaVulnerableLab\vulnerability\Injection\xxe.jsp
+[DEBUG] [2020-12-07 16:01:10,944 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\target\JavaVulnerableLab\vulnerability\Messages.jsp
+[DEBUG] [2020-12-07 16:01:10,944 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\target\JavaVulnerableLab\vulnerability\mfac\SearchEngines.jsp
+[DEBUG] [2020-12-07 16:01:10,954 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\target\JavaVulnerableLab\vulnerability\sde\hash.jsp
+[DEBUG] [2020-12-07 16:01:10,954 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\target\JavaVulnerableLab\vulnerability\securitymisconfig\pages.jsp
+[DEBUG] [2020-12-07 16:01:10,954 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\target\JavaVulnerableLab\vulnerability\SendMessage.jsp
+[DEBUG] [2020-12-07 16:01:10,954 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\target\JavaVulnerableLab\vulnerability\sqli\download.jsp
+[DEBUG] [2020-12-07 16:01:10,954 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\target\JavaVulnerableLab\vulnerability\sqli\download_id.jsp
+[DEBUG] [2020-12-07 16:01:10,954 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\target\JavaVulnerableLab\vulnerability\sqli\download_id_union.jsp
+[DEBUG] [2020-12-07 16:01:10,954 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\target\JavaVulnerableLab\vulnerability\sqli\union2.jsp
+[DEBUG] [2020-12-07 16:01:10,954 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\target\JavaVulnerableLab\vulnerability\unvalidated\OpenForward.jsp
+[DEBUG] [2020-12-07 16:01:10,954 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\target\JavaVulnerableLab\vulnerability\unvalidated\OpenURL.jsp
+[DEBUG] [2020-12-07 16:01:10,954 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\target\JavaVulnerableLab\vulnerability\UserDetails.jsp
+[DEBUG] [2020-12-07 16:01:10,954 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\target\JavaVulnerableLab\vulnerability\xss\flash\exss.jsp
+[DEBUG] [2020-12-07 16:01:10,954 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\target\JavaVulnerableLab\vulnerability\xss\search.jsp
+[DEBUG] [2020-12-07 16:01:10,954 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\target\JavaVulnerableLab\vulnerability\xss\xss4.jsp
+[DEBUG] [2020-12-07 16:01:10,954 -0300[ - Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\target\JavaVulnerableLab\WEB-INF\AdminPanel.jsp
+[INFO] [2020-12-07 16:01:10,954 -0300[ - Attempting to resolve dependencies
+[INFO] [2020-12-07 16:01:10,954 -0300[ - 
+------------------------------------------------------------------------
+-------------------- Start: Pre-Step And Resolve Dependencies ----------
+------------------------------------------------------------------------
+[DEBUG] [2020-12-07 16:01:10,985 -0300[ - FilesFrom: MavenDependencyResolver, Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\bin\pom.xml
+[DEBUG] [2020-12-07 16:01:11,001 -0300[ - FilesFrom: MavenDependencyResolver, Dependency file found location: C:\WhiteSource\Projects\JavaVulnerableLab-master\pom.xml
+[DEBUG] [2020-12-07 16:01:11,001 -0300[ - found folders:
+
+[DEBUG] [2020-12-07 16:01:11,001 -0300[ - C:\WhiteSource\Projects
+[DEBUG] [2020-12-07 16:01:11,001 -0300[ - C:\WhiteSource\Projects\JavaVulnerableLab-master
+[DEBUG] [2020-12-07 16:01:11,001 -0300[ - 
+
+[DEBUG] [2020-12-07 16:01:11,017 -0300[ - C:\WhiteSource\Projects\JavaVulnerableLab-master;C:\WhiteSource\Projects\JavaVulnerableLab-master;true
+[DEBUG] [2020-12-07 16:01:11,017 -0300[ - ---> removed: C:\WhiteSource\Projects\JavaVulnerableLab-master
+[DEBUG] [2020-12-07 16:01:11,018 -0300[ - 
+
+[DEBUG] [2020-12-07 16:01:11,018 -0300[ - Finishing reduce dependencies
+[DEBUG] [2020-12-07 16:01:11,020 -0300[ - CommandLineProcess - executeProcessCommand - start execute command 'cmd /c mvn -v' in '.'
+[DEBUG] [2020-12-07 16:01:11,030 -0300[ - CommandLineProcess - executeProcessCommand - timeout set to 900s
+[DEBUG] [2020-12-07 16:01:11,460 -0300[ - Command result output lines for 'cmd /c mvn -v':
+[DEBUG] [2020-12-07 16:01:11,461 -0300[ - Read line #1: Apache Maven 3.6.3 (cecedd343002696d0abb50b32b541b8a6ba2883f)
+[DEBUG] [2020-12-07 16:01:11,461 -0300[ - Read line #2: Maven home: C:\apache-maven-3.6.3\bin\..
+[DEBUG] [2020-12-07 16:01:11,461 -0300[ - Read line #3: Java version: 11.0.9, vendor: Oracle Corporation, runtime: C:\Program Files\Java\jdk-11.0.9
+[DEBUG] [2020-12-07 16:01:11,461 -0300[ - Read line #4: Default locale: en_US, platform encoding: Cp1252
+[DEBUG] [2020-12-07 16:01:11,461 -0300[ - Read line #5: OS name: "windows 10", version: "10.0", arch: "amd64", family: "windows"
+[DEBUG] [2020-12-07 16:01:11,462 -0300[ - using: Maven 3.6.3
+[INFO] [2020-12-07 16:01:11,462 -0300[ - Trying to resolve MAVEN dependencies
+[INFO] [2020-12-07 16:01:11,462 -0300[ - topFolder = C:\WhiteSource\Projects\JavaVulnerableLab-master
+[DEBUG] [2020-12-07 16:01:11,462 -0300[ - topFolder = C:\WhiteSource\Projects\JavaVulnerableLab-master
+[DEBUG] [2020-12-07 16:01:11,463 -0300[ - CommandLineProcess - executeProcessCommand - start execute command 'cmd /c mvn -T1 dependency:tree -DoutputFile=whitesource_mvn_dependency_tree.txt -B' in 'C:\WhiteSource\Projects\JavaVulnerableLab-master'
+[DEBUG] [2020-12-07 16:01:11,475 -0300[ - CommandLineProcess - executeProcessCommand - timeout set to 900s
+[DEBUG] [2020-12-07 16:01:16,929 -0300[ - Command result output lines for 'cmd /c mvn -T1 dependency:tree -DoutputFile=whitesource_mvn_dependency_tree.txt -B':
+[DEBUG] [2020-12-07 16:01:16,929 -0300[ - Read line #1: [INFO] Scanning for projects...
+[DEBUG] [2020-12-07 16:01:16,929 -0300[ - Read line #2: [INFO] 
+[DEBUG] [2020-12-07 16:01:16,929 -0300[ - Read line #3: [INFO] ------------------< org.cysecurity:JavaVulnerableLab >------------------
+[DEBUG] [2020-12-07 16:01:16,929 -0300[ - Read line #4: [INFO] Building JavaVulnerableLab Maven Webapp 0.0.1-SNAPSHOT
+[DEBUG] [2020-12-07 16:01:16,929 -0300[ - Read line #5: [INFO] --------------------------------[ war ]---------------------------------
+[DEBUG] [2020-12-07 16:01:16,929 -0300[ - Read line #6: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/5.1.2/mysql-connector-java-5.1.2.pom
+[DEBUG] [2020-12-07 16:01:16,929 -0300[ - Read line #7: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/5.1.2/mysql-connector-java-5.1.2.pom (1.1 kB at 844 B/s)
+[DEBUG] [2020-12-07 16:01:16,929 -0300[ - Read line #8: [INFO] Downloading from central: https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/5.1.2/mysql-connector-java-5.1.2.jar
+[DEBUG] [2020-12-07 16:01:16,929 -0300[ - Read line #9: [INFO] Downloaded from central: https://repo.maven.apache.org/maven2/mysql/mysql-connector-java/5.1.2/mysql-connector-java-5.1.2.jar (637 kB at 641 kB/s)
+[DEBUG] [2020-12-07 16:01:16,929 -0300[ - Read line #10: [INFO] 
+[DEBUG] [2020-12-07 16:01:16,929 -0300[ - Read line #11: [INFO] --- maven-dependency-plugin:2.8:tree (default-cli) @ JavaVulnerableLab ---
+[DEBUG] [2020-12-07 16:01:16,929 -0300[ - Read line #12: [INFO] Wrote dependency tree to: C:\WhiteSource\Projects\JavaVulnerableLab-master\whitesource_mvn_dependency_tree.txt
+[DEBUG] [2020-12-07 16:01:16,929 -0300[ - Read line #13: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-12-07 16:01:16,929 -0300[ - Read line #14: [INFO] BUILD SUCCESS
+[DEBUG] [2020-12-07 16:01:16,929 -0300[ - Read line #15: [INFO] ------------------------------------------------------------------------
+[DEBUG] [2020-12-07 16:01:16,929 -0300[ - Read line #16: [INFO] Total time:  4.153 s
+[DEBUG] [2020-12-07 16:01:16,929 -0300[ - Read line #17: [INFO] Finished at: 2020-12-07T16:01:16-03:00
+[DEBUG] [2020-12-07 16:01:16,929 -0300[ - Read line #18: [INFO] ------------------------------------------------------------------------
+[INFO] [2020-12-07 16:01:16,931 -0300[ - Start parsing pom files
+[INFO] [2020-12-07 16:01:16,932 -0300[ - Reading maven dependencies tree output file 'C:\WhiteSource\Projects\JavaVulnerableLab-master\whitesource_mvn_dependency_tree.txt'
+[INFO] [2020-12-07 16:01:16,933 -0300[ - org.cysecurity:JavaVulnerableLab:war:0.0.1-SNAPSHOT
+[INFO] [2020-12-07 16:01:16,933 -0300[ - +- junit:junit:jar:3.8.1:test
+[INFO] [2020-12-07 16:01:16,933 -0300[ - +- mysql:mysql-connector-java:jar:5.1.2:compile
+[INFO] [2020-12-07 16:01:16,933 -0300[ - +- org.json:json:jar:20090211:compile
+[INFO] [2020-12-07 16:01:16,933 -0300[ - +- javax.servlet:jstl:jar:1.2:compile
+[INFO] [2020-12-07 16:01:16,933 -0300[ - +- org.hibernate:hibernate-core:jar:4.0.1.Final:compile
+[INFO] [2020-12-07 16:01:16,933 -0300[ - |  +- commons-collections:commons-collections:jar:3.2.1:compile
+[INFO] [2020-12-07 16:01:16,933 -0300[ - |  +- antlr:antlr:jar:2.7.7:compile
+[INFO] [2020-12-07 16:01:16,933 -0300[ - |  +- org.jboss.spec.javax.transaction:jboss-transaction-api_1.1_spec:jar:1.0.0.Final:compile
+[INFO] [2020-12-07 16:01:16,933 -0300[ - |  +- dom4j:dom4j:jar:1.6.1:compile
+[INFO] [2020-12-07 16:01:16,933 -0300[ - |  |  \- xml-apis:xml-apis:jar:1.0.b2:compile
+[INFO] [2020-12-07 16:01:16,933 -0300[ - |  +- org.hibernate.javax.persistence:hibernate-jpa-2.0-api:jar:1.0.1.Final:compile
+[INFO] [2020-12-07 16:01:16,933 -0300[ - |  +- org.jboss.logging:jboss-logging:jar:3.1.0.CR2:compile
+[INFO] [2020-12-07 16:01:16,933 -0300[ - |  +- org.javassist:javassist:jar:3.15.0-GA:compile
+[INFO] [2020-12-07 16:01:16,933 -0300[ - |  \- org.hibernate.common:hibernate-commons-annotations:jar:4.0.1.Final:compile
+[INFO] [2020-12-07 16:01:16,933 -0300[ - \- javax.servlet:servlet-api:jar:2.3:provided
+[INFO] [2020-12-07 16:01:16,938 -0300[ - End parsing pom files , found : JavaVulnerableLab
+[INFO] [2020-12-07 16:01:16,938 -0300[ - The following maven scopes will be ignored : [test, provided]
+[DEBUG] [2020-12-07 16:01:16,939 -0300[ - converting node to dependency :mysql-connector-java
+[DEBUG] [2020-12-07 16:01:16,940 -0300[ - converting node to dependency :json
+[DEBUG] [2020-12-07 16:01:16,940 -0300[ - converting node to dependency :jstl
+[DEBUG] [2020-12-07 16:01:16,940 -0300[ - converting node to dependency :hibernate-core
+[DEBUG] [2020-12-07 16:01:16,940 -0300[ - converting node to dependency :commons-collections
+[DEBUG] [2020-12-07 16:01:16,940 -0300[ - converting node to dependency :antlr
+[DEBUG] [2020-12-07 16:01:16,940 -0300[ - converting node to dependency :jboss-transaction-api_1.1_spec
+[DEBUG] [2020-12-07 16:01:16,940 -0300[ - converting node to dependency :dom4j
+[DEBUG] [2020-12-07 16:01:16,941 -0300[ - converting node to dependency :xml-apis
+[DEBUG] [2020-12-07 16:01:16,941 -0300[ - converting node to dependency :hibernate-jpa-2.0-api
+[DEBUG] [2020-12-07 16:01:16,941 -0300[ - converting node to dependency :jboss-logging
+[DEBUG] [2020-12-07 16:01:16,941 -0300[ - converting node to dependency :javassist
+[DEBUG] [2020-12-07 16:01:16,941 -0300[ - converting node to dependency :hibernate-commons-annotations
+[DEBUG] [2020-12-07 16:01:16,990 -0300[ - Project/Module coordinates: Coordinates@199b37c4[groupId= org.cysecurity,artifactId= JavaVulnerableLab,version= 0.0.1-SNAPSHOT ]
+[DEBUG] [2020-12-07 16:01:16,990 -0300[ - Total project direct dependencies found : 4
+[DEBUG] [2020-12-07 16:01:16,991 -0300[ - ProjectInfo direct dependency added : 4
+[INFO] [2020-12-07 16:01:17,003 -0300[ - 
+------------------------------------------------------------------------
+-------------------- End: Pre-Step And Resolve Dependencies ------------
+------------------------------------------------------------------------
+[DEBUG] [2020-12-07 16:01:17,003 -0300[ - total resolved projects =1
+[DEBUG] [2020-12-07 16:01:17,003 -0300[ - quick mode does not resolve source files
+[INFO] [2020-12-07 16:01:17,003 -0300[ - 
+------------------------------------------------------------------------
+-------------------- End: Scan Files Matching Includes Pattern ---------
+------------------------------------------------------------------------
+[INFO] [2020-12-07 16:01:17,003 -0300[ - Finished analyzing Files
+[DEBUG] [2020-12-07 16:01:17,003 -0300[ - Available processors (cores): 	8
+Free memory (Mb): 	282
+Max memory (Mb): 	4044
+Total memory (Mb): 	382
+Used memory (Mb): 	99
+
+[INFO] [2020-12-07 16:01:17,050 -0300[ - Initializing WhiteSource Client
+[DEBUG] [2020-12-07 16:01:17,050 -0300[ - Setting project tags
+[INFO] [2020-12-07 16:01:17,050 -0300[ - Service URL is https://saas.whitesourcesoftware.com/agent
+[INFO] [2020-12-07 16:01:17,065 -0300[ - Generating offline update request
+[INFO] [2020-12-07 16:01:17,065 -0300[ - UpdateType offline set to OVERRIDE 
+[INFO] [2020-12-07 16:01:17,097 -0300[ - Offline request generated successfully at C:\WhiteSource\Projects\JavaVulnerableLab-master\.ws\temp\whitesource\update-request.txt
+[DEBUG] [2020-12-07 16:01:17,363 -0300[ - Process finished with exit code SUCCESS (Offline request generated successfully at C:\WhiteSource\Projects\JavaVulnerableLab-master\.ws\temp\whitesource\update-request.txt)
+[INFO] [2020-12-07 16:01:17,363 -0300[ - Log files are found at: C:\WhiteSource\Projects\JavaVulnerableLab-master\.ws\temp\ua_logs\Mon-Dec-07-2020-16.01.10
+[INFO] [2020-12-07 16:01:17,368 -0300[ - 
+------------------------------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------- WhiteSource Scan Summary: --------------------------------------------------------------
+------------------------------------------------------------------------------------------------------------------------------------------------------
+======================================================================================================================================================
+Scan Origin: Local File System
+======================================================================================================================================================
+Step                                              Completion Status               Elapsed                  Comments
+======================================================================================================================================================
+Fetch Configuration                                  COMPLETED                  00:00:00.093               --------
+Pre-Step And Resolve Dependencies                    COMPLETED                  00:00:05.541               13 total dependencies (13 unique)
+   MAVEN                                             COMPLETED                  00:00:05.541               13 total dependencies (13 unique)
+Scan Files Matching Includes Pattern                 COMPLETED                  00:00:00.201               0 source/binary files
+
+======================================================================================================================================================
+Elapsed running time:                                                           00:00:05.835
+======================================================================================================================================================
+Process finished with exit code SUCCESS (0)
+
